@@ -1,6 +1,6 @@
 #Q13: Write a Python function to find all missing numbers
 # in a list that should contain numbers from 1 to n.
-# With sort() and set() function.
+# With sorted() and set() function.
 # Example:
 # Input: [1, 2, 4, 6]
 # Output: [3, 5]
