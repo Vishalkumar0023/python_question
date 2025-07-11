@@ -11,7 +11,6 @@ def find_missing_no(nums):
     for i in range(1,max_val +1):
         if i not in nums:
             missing.append(i)
-
     return missing
 nums = [1, 2, 4, 6]    
 print("Missing number ",find_missing_no(nums)) 
