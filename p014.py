@@ -4,7 +4,7 @@
 # Example:
 # Input: [1, 2, 4, 6]
 # Output: [3, 5]
-#
+
 def find_all_missing(nums):
     max_val = max(nums)
     full_set = set(range(1, max_val + 1))
@@ -12,7 +12,5 @@ def find_all_missing(nums):
     missing = full_set - actual_set
     return sorted(list(missing))
 
-# Test
 nums = [1, 2, 4, 6]
-
 print("Missing numbers are:", find_all_missing(nums))
