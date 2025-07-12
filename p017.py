@@ -1,4 +1,4 @@
-# Q16: Write a Python function to find the most frequent element in a list.
+# Q17: Write a Python function to find the most frequent element in a list.
 #
 # Example:
 # Input: [1, 3, 2, 1, 4, 1, 3]
